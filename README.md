@@ -1,13 +1,13 @@
 # Web Scraping and Exploratory Data Analysis on the food scene in Mumbai, India
 
 ## Table of Contents :
-* [Introduction]()
-* [Code and Resources Used]()
-* [Data Collection]()
-* [Findings]()
-  * [Summary Statistics]()
-  * [Geographic Statistics]()
-  * [Wordclouds]()
+* [Introduction](https://github.com/ritik-k/zomato_mumbai#introduction-)
+* [Code and Resources Used](https://github.com/ritik-k/zomato_mumbai#code-and-resources-used-)
+* [Data Collection](https://github.com/ritik-k/zomato_mumbai#data-collection-)
+* [Findings](https://github.com/ritik-k/zomato_mumbai#findings-)
+  * [Summary Statistics](https://github.com/ritik-k/zomato_mumbai#summary-statistics-)
+  * [Geographic Statistics](https://github.com/ritik-k/zomato_mumbai#geographic-statistics-)
+  * [Wordclouds](https://github.com/ritik-k/zomato_mumbai#wordclouds)
   
 ## Introduction :
 ### Zomato is a website where users can rate and review the restaurants they've been to. As a self proclaimed "foodie", I wanted to find out more about the experience people have in the restaurants in my city. The unique food culture of Mumbai and the growing number of restaurants and cuisines is what attracted me to inspect the data to get some insights. Data has been scraped from the [Best Restaurants in Mumbai](https://www.zomato.com/mumbai/best-restaurants?page=1) list using Scrapy.
@@ -22,7 +22,7 @@
 ### Data has been scraped in two phases from Zomato using two different Scrapy spiders. Spider 1 scrapes the restaurant Name, Category, Cuisine, Rating, Number of Reviews, Cost for 2, etc. Spider 2 scrapes the Names and the GPS co-ordinates of the restaurants.
 ### A total of 1050 restaurants have been scraped.
 
-![scraping sample image]()
+![scraping sample image](https://raw.githubusercontent.com/ritik-k/zomato_mumbai/master/zomato/images/zom.png)
 
 ## Findings :
 
@@ -57,8 +57,9 @@
 
 #### Lastly, we will check out the summary statistics of restaurant categories.
 
-![popular categories]()
-![cost for 2 categories]()
+![popular categories](https://raw.githubusercontent.com/ritik-k/zomato_mumbai/master/zomato/images/pop_cate.png)
+
+![cost for 2 categories](https://raw.githubusercontent.com/ritik-k/zomato_mumbai/master/zomato/images/cost_cate.png)
 
 #### The above graphs suggest that Casual Dining and Quick Dining are the two most popular restaurant categories in Mumbai.
 
