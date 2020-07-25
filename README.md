@@ -61,7 +61,7 @@
 
 ![cost for 2 categories](https://raw.githubusercontent.com/ritik-k/zomato_mumbai/master/zomato/images/cost_cate.png)
 
-#### The above graphs suggest that Casual Dining and Quick Dining are the two most popular restaurant categories in Mumbai.
+#### The above graphs suggest that Casual Dining and Quick Bites are the two most popular restaurant categories in Mumbai.
 
 #### As per the second graph, Fine Dining is the most expensive category, as expected, and it is followed by Lounge, Bar, Brewery and Pub; all of which serve liquor, driving the price up.
 
